@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Color blocks</title>
+    <script src ='jquery-3.2.1.js'></script>
+    <script src = 'script.js'></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <source>
@@ -12,9 +14,26 @@
     <h1> Colors blocks</h1>
 </header>
 <body>
-   <div class = 'redbox'> </div>
-   <div class = 'bluebox'> </div> 
-   <div class = 'greenbox'></div>
-   <div class = 'yellowbox'></div>
+    <div id ='blockDiv'>
+         <div class = 'redbox'> </div>
+         <div class = 'bluebox'> </div> 
+         <div class = 'greenbox'></div>
+         <div class = 'yellowbox'></div>
+    </div>
+
+    <div id ='Counter'>
+        <p id = 'redCounter'>Red count: 0</p>
+        <p id = 'blueCounter'> Blue count: 0</p>
+        <p id = 'greenCounter'> Green count: 0</p>
+        <p id = 'yellowCounter'>Yellow Count: 0</p>
+    </div>
+
+<div id ='buttons'> 
+    <button id ='redButton' >Red Button</button>
+    <button id ='blueButton'>Blue Button</button>
+    <button id ='greenButton'>Green Button</button>
+    <button id = 'yellowButton'> Yellow Button</button>
+</div>
+
 </body>
 </html>
